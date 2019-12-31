@@ -4,7 +4,7 @@ Nyan cat progress bar for youtube (done with a userscript)
 Just copy the text in  
 >nyan cat progress bar userscript.js  
   
-and paste it as a userscript  
+and paste it into your grease/tamper/violentmonkey as a new userscript  
   
 credit to: https://chrome.google.com/webstore/detail/nyan-cat-progress-bar-for/bdjaekjkckpdknkfncfnaibkabdcgmkg?hl=en  
 Because I stole the css and gif from there.
