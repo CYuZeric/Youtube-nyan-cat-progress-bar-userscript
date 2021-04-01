@@ -65,6 +65,7 @@
    margin-top: 12px !important;
 }`
 ].join("\n");
+
 if (typeof GM_addStyle != 'undefined') {
  GM_addStyle(css);
  } else if (typeof PRO_addStyle != 'undefined') {
