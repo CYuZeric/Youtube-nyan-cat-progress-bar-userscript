@@ -1,9 +1,10 @@
 // ==UserScript==
-// @version         1
+// @version         2.0
 // @name            nyan cat progress bar
 // @description     nyannn
 // @compatible      firefox
 // @compatible      opera
+// @compatible      edge
 // @match           https://www.youtube.com/*
 // @exclude         *://www.youtube.com/tv*
 // @exclude         *://www.youtube.com/embed/*
@@ -26,7 +27,14 @@
 	    color-stop(67%, #09f),
 	    color-stop(83%, #63f));
 }
-
+.ytp-progress-bar {
+    /*a bit more visable progress bar*/
+    height: 10px;
+}
+.ytp-load-progress {
+      /*nyancat background gif*/
+    	background: url('https://raw.githubusercontent.com/CYuZeric/Youtube-nyan-cat-progress-bar-userscript/master/nyancatbackground.gif');
+}
 .ytp-scrubber-container {
     /* nyanimated gif */
     background: url('https://raw.githubusercontent.com/tntmod54321/Youtube-nyan-cat-progress-bar-userscript/master/nyanimated.gif') no-repeat;
@@ -35,15 +43,16 @@
     height: 24px;
     margin-top: -4px;
 }
-
 .ytp-scrubber-container:hover {
-    background-size:40px;
+    /* a bit more visable hover*/
+    background-size:45px;
+    width: 45px;
+    height: 28px;
     margin-top:-6px;
     margin-left:-2px;
 }
-
-.ytp-scrubber-button {
-    display: none;
+.ytp-scrubber-button{
+    display: none
 }`
 ].join("\n");
 if (typeof GM_addStyle != 'undefined') {
