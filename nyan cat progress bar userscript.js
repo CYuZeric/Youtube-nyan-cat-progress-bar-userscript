@@ -30,7 +30,7 @@
 }
 .ytp-scrubber-container {
     /* nyanimated gif */
-    background: url('https://raw.githubusercontent.com/tntmod54321/Youtube-nyan-cat-progress-bar-userscript/master/nyanimated.gif') no-repeat;
+    background: url('https://raw.githubusercontent.com/CYuZeric/Youtube-nyan-cat-progress-bar-userscript/master/nyanimated.gif') no-repeat;
     background-size: 36px;
     width: 40px;
     height: 24px;
