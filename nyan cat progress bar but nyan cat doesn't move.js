@@ -31,7 +31,7 @@
             z-index: 1000 !important;
         }
         .ytp-scrubber-container {
-            background: url('https://raw.githubusercontent.com/CYuZeric/Youtube-nyan-cat-progress-bar-userscript/master/nyanimated.png') no-repeat;
+            background: url('https://raw.githubusercontent.com/CYuZeric/Youtube-nyan-cat-progress-bar-userscript/master/nyantianimated.png') no-repeat;
             background-size: 36px;
             width: 40px;
             height: 24px;
